@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     $fumetti = config('fumetti');
 
-    return view('layout/app', ['fumetti' => $fumetti]);
+    return view('main', ['fumetti' => $fumetti]);
     
 
 });

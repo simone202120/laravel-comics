@@ -1,0 +1,47 @@
+.container1{
+    background-color:#1c1c1c;
+    height: 400px;
+}
+.containerFoot{
+   margin: 0 15%;
+   display: flex;
+   justify-content: space-between;
+
+}
+
+#footimg{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.container-link{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+    width: 40%;
+
+    h4{
+        color:white;
+        margin-bottom: 15px;
+        margin-top:15px;
+        font-size: 20px;
+    }
+}
+
+li,a{
+    color:gray;
+    padding: 5px 0px;
+    font-size: 12px;
+    text-decoration: none;
+    
+    &:hover{
+        color: white;
+        font-weight: 500;
+    }
+}
+
+.logo-bg{
+     height: 400px;
+   
+}
